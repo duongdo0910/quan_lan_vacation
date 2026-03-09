@@ -368,7 +368,7 @@
 
         <!-- DATE like reference: DD | MM | YYYY -->
         <div class="date-row">
-          <div class="date-num">15</div>
+          <div class="date-num">18</div>
           <div class="date-sep">|</div>
           <div class="date-num">03</div>
           <div class="date-sep">|</div>
@@ -381,7 +381,7 @@
         <div class="info-line">
           <div class="ico">&#9200;</div>
           <div class="txt">10:00 &#8211; 11:00
-            <small>Ch&#7911; Nh&#7853;t, 15 th&#225;ng 3 n&#259;m 2026</small>
+            <small>Thứ 4, 18 tháng 3 năm 2026</small>
           </div>
         </div>
 
@@ -466,7 +466,7 @@
   })();
   /* countdown */
   (function(){
-    var T=new Date('2026-03-15T10:00:00+07:00').getTime();
+    var T=new Date('2026-03-18T10:00:00+07:00').getTime();
     var ed=document.getElementById('cd-d'),eh=document.getElementById('cd-h'),em=document.getElementById('cd-m'),es=document.getElementById('cd-s');
     function f(n){return String(n).padStart(2,'0');}
     function tick(){var d=T-Date.now();if(d<=0){ed.textContent=eh.textContent=em.textContent=es.textContent='00';return;}ed.textContent=f(Math.floor(d/86400000));eh.textContent=f(Math.floor(d%86400000/3600000));em.textContent=f(Math.floor(d%3600000/60000));es.textContent=f(Math.floor(d%60000/1000));}
